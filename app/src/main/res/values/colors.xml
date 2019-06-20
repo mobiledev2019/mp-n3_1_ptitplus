@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#61BAFF</color>
-    <color name="border_table">#6C99BB</color>
-    <color name="row_mark">#8FBEE2</color>
-</resources>
