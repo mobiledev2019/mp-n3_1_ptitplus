@@ -1,0 +1,18 @@
+{
+	"mon" : [{"id" : "INT1449", "ten" : "Phát triển ứng dụng cho các thiết bị di động"},
+			{"id" : "INT1408", "ten" : "Chuyên đề công nghệ phần mềm"},
+			{"id" : "INT1416", "ten" : "Đảm bảo chất lượng phần mềm"},
+			{"id" : "INT1427", "ten" : "Kiến trúc và thiết kế phần mềm"},
+			{"id" : "INT1448", "ten" : "Phát triển phần mềm hướng dịch vụ"},
+			{"id" : "INT1461", "ten" : "Xây dựng các hệ thống nhúng"}
+	],
+	"gv" : [
+		{"ten" : "Đặng Ngọc Hùng", "avatar" : "https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-1/c0.0.474.474a/421235_383206031689446_1138257822_n.jpg?_nc_cat=105&_nc_oc=AQm1vFrKDvzyqXTJK1_dzwWse0dpyIcltHfm4xP5-pNaCnZyIPvPyMXrTIcQh8inA4c&_nc_ht=scontent.fhan2-4.fna&oh=c3e71d41aba6fadeb6806dd8be62868a&oe=5D96F3CF"}, 
+		{"ten" : "Nguyễn Mạnh Hùng", "avatar" : "https://scontent.fhan2-1.fna.fbcdn.net/v/t1.0-9/41934683_2434015689970164_6687770340552081408_n.jpg?_nc_cat=102&_nc_oc=AQkGfP4YGUV58Zae-QtVR_CygExg_vGkUCM-CKLObms8VOzPpe0R1rKD8mLoLchmty0&_nc_ht=scontent.fhan2-1.fna&oh=4d1a13bbdb0cf64bf6246a7595bbb47e&oe=5D8B7967"},
+		{"ten" : "Trần Đình Quế", "avatar" : "https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/13240711_10209143046993492_1024004568613092021_n.jpg?_nc_cat=104&_nc_oc=AQkCkfw96Y9B_4WazD6Woxj3zrFV5Dnfptb1UJmPststW9VkAcc238RdS8mCkT8MQ6o&_nc_ht=scontent.fhan2-4.fna&oh=e71e1cf24b49fa120e13dd809576d8f0&oe=5DC3BBF7"},
+		{"ten" : "Nguyễn Duy Phương", "avatar" : "https://scontent.fhan2-3.fna.fbcdn.net/v/t1.0-9/44216994_942777255916881_5678483034928578560_n.jpg?_nc_cat=109&_nc_oc=AQkqnG9fEWURBNoZhXVKUqkqAQZyki-o555lHwSOUojqu4FwNa51b6Wp1IQSVxBHmQc&_nc_ht=scontent.fhan2-3.fna&oh=571c1b0f45deabcd08c32b56c846cdf5&oe=5D81B846"},
+		{"ten" : "Đỗ Thị Bích Ngọc", "avatar" : "https://scontent.fhan2-3.fna.fbcdn.net/v/t1.0-1/11990375_10206358489415505_4598832733027712669_n.jpg?_nc_cat=109&_nc_oc=AQntwVWmOzuMHN7ETcDcpvEsDyT0dONAL1f-6zDvfEb1owhiQejz7sK8A1IoFzAKkI4&_nc_ht=scontent.fhan2-3.fna&oh=b5b821e774ca0bf0d89a6b0b230cb14a&oe=5D78C175"},
+		{"ten" : "Nguyễn Trọng Khánh", "avatar" : "https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/56168093_10156521005328026_9201261983301632000_n.jpg?_nc_cat=105&_nc_oc=AQkBgIyjuB4u-QhctCMPczDmCI3LVWuYlqX57hCg-rYf9Rov2YAs7z-1mk4eoAWzDQk&_nc_ht=scontent.fhan2-4.fna&oh=9e9840333957d2755bde249aff809f7f&oe=5D968931"},		
+		{"ten" : "Vũ Hoài Nam", "avatar" : "https://scontent.fhan2-1.fna.fbcdn.net/v/t1.0-9/45042907_2357172040962746_5434024225268563968_n.jpg?_nc_cat=101&_nc_oc=AQmPeHQ8mI5dOmLTjBZJQhrO5FFnMnpIhAw98qDeFaEUQWFhGePc2gaSaGELt0Tkp1k&_nc_ht=scontent.fhan2-1.fna&oh=e921a97fc62e2f3c6c42359d4102eb45&oe=5D8D8F3E"}
+	]
+}

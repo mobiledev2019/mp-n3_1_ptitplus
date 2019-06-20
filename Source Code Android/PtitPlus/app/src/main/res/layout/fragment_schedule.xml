@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:stretchColumns="*"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Học Kỳ"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/ky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuần"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/tuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/row_mark">
+
+                <TextView
+                    android:id="@+id/kipthu"
+                    style="@style/table"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thứ/Kíp" />
+
+                <TextView
+                    android:id="@+id/kip1"
+                    style="@style/table"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kíp 1" />
+
+                <TextView
+                    android:id="@+id/kip2"
+                    style="@style/table"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kíp 2" />
+
+                <TextView
+                    android:id="@+id/kip3"
+                    style="@style/table"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kíp 3" />
+
+                <TextView
+                    android:id="@+id/kip4"
+                    style="@style/table"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kíp 4" />
+
+                <TextView
+                    android:id="@+id/kip5"
+                    style="@style/table"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kíp 5" />
+
+                <TextView
+                    android:id="@+id/kip6"
+                    style="@style/table"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kíp 6" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/thu2"
+                    style="@style/table1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Thứ hai" />
+
+                <TextView
+                    android:id="@+id/thu2kip1"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu2kip2"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu2kip3"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu2kip4"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu2kip5"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu2kip6"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/thu3"
+                    style="@style/table1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Thứ ba" />
+
+                <TextView
+                    android:id="@+id/thu3kip1"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu3kip2"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu3kip3"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu3kip4"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu3kip5"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu3kip6"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/thu4"
+                    style="@style/table1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Thứ tư" />
+
+                <TextView
+                    android:id="@+id/thu4kip1"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu4kip2"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu4kip3"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu4kip4"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu4kip5"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu4kip6"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/thu5"
+                    style="@style/table1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Thứ năm" />
+
+                <TextView
+                    android:id="@+id/thu5kip1"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu5kip2"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu5kip3"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu5kip4"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu5kip5"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu5kip6"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/thu6"
+                    style="@style/table1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Thứ sáu" />
+
+                <TextView
+                    android:id="@+id/thu6kip1"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu6kip2"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu6kip3"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu6kip4"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu6kip5"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu6kip6"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/thu7"
+                    style="@style/table1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Thứ bảy" />
+
+                <TextView
+                    android:id="@+id/thu7kip1"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu7kip2"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu7kip3"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu7kip4"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu7kip5"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/thu7kip6"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/chunhat"
+                    style="@style/table1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Chủ nhật" />
+
+                <TextView
+                    android:id="@+id/chunhatkip1"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/chunhatkip2"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/chunhatkip3"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/chunhatkip4"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/chunhatkip5"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/chunhatkip6"
+                    style="@style/table"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="" />
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

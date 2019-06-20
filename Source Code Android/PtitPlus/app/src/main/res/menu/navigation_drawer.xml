@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_drawer_news"
+        android:icon="@drawable/ic_news"
+        android:title="Tin tức" />
+    <item
+        android:id="@+id/navigation_drawer_schedule"
+        android:icon="@drawable/ic_schedule"
+        android:title="Thời khoá biểu" />
+    <item
+        android:id="@+id/navigation_drawer_mark"
+        android:icon="@drawable/ic_mark"
+        android:title="Xem điểm" />
+    <item
+        android:id="@+id/navigation_drawer_info"
+        android:icon="@drawable/ic_information"
+        android:title="Thông tin ngành" />
+    <item
+        android:id="@+id/navigation_drawer_profile"
+        android:icon="@drawable/ic_person"
+        android:title="Cá nhân" />
+    <item
+        android:id="@+id/navigation_drawer_signout"
+        android:icon="@drawable/ic_signout"
+        android:title="Đăng xuất" />
+
+    <item
+        android:id="@+id/navigation_drawer_signin"
+        android:icon="@drawable/ic_signout"
+        android:title="Đăng nhập" />
+    <item
+        android:id="@+id/navigation_drawer_lichThi"
+        android:icon="@drawable/ic_information"
+        android:title="Lịch thi" />
+</menu>

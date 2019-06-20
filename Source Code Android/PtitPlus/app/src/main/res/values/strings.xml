@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Ptit Plus</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="news">Tin tức</string>
+    <string name="schedule">Thời khoá biểu</string>
+    <string name="mark">Xem điểm</string>
+    <string name="info">Thông tin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_placeholder">This is title</string>
+    <string name="news_placeholder">this </string>
+    <string name="sports_info_placeholder" />
+    <string name="thong_bao">Thông báo</string>
+    <string name="thong_tin_nganh">Thông tin ngành</string>
+    <string name="infoGV">Thông tin giảng viên</string>
+    <string name="job_service">this is title</string>
+    <string name="job_running">this is content</string>
+    <string name="job_service_notification">name</string>
+    <string name="notification_channel_description">description</string>
+    <string-array name="ky">
+        <item>All</item>
+        <item>20172</item>
+        <item>20181</item>
+    </string-array>
+    <array name="nganhImageArr">
+        <item>@drawable/nganh_vien_thong</item>
+        <item>@drawable/nganh_dien_tu</item>
+        <item>@drawable/nganh_cntt</item>
+        <item>@drawable/nganh_attt</item>
+        <item>@drawable/nganh_da_phuong_tien</item>
+        <item>@drawable/nganh_quan_tri_kinh_doanh</item>
+        <item>@drawable/nganh_marketing</item>
+        <item>@drawable/nganh_ke_toan</item>
+        <item>@drawable/nganh_truyen_thong_dpt</item>
+        <item>@drawable/nganh_thuong_mai_dien_tu</item>
+    </array>
+    <string-array name="nganhNameArr">
+        <item>Ngành Kỹ thuật điện tử, viễn thông</item>
+        <item>Ngành Công nghệ kỹ thuật, điện tử</item>
+        <item>Ngành Công nghệ thông tin</item>
+        <item>Ngành An toàn thông tin</item>
+        <item>Ngành Công nghệ đa phương tiện</item>
+        <item>Ngành Quản trị kinh doanh</item>
+        <item>Ngành Marketing</item>
+        <item>Ngành Kế toán</item>
+        <item>Ngành Truyền thông đa phương tiện</item>
+        <item>Ngành Thương mại điện tử</item>
+    </string-array>
+</resources>

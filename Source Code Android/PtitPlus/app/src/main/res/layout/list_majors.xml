@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/majorsImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/nganh_vien_thong" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/majorsName"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/majorsImage"
+        android:layout_margin="5dp"
+        android:text="Nganh cong nghe thong tin"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+</RelativeLayout>

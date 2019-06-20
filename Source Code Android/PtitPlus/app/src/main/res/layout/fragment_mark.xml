@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:padding="8dp"
+    tools:context=".viewfragment.MarkFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editText_msv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:hint="Enter your ID"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button_xemDiem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Xem"
+                    android:textSize="14sp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TableLayout
+                android:id="@+id/table_mark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/row_mark">
+
+                    <TextView
+                        style="@style/table"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mã" />
+
+                    <TextView
+                        style="@style/table"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CC" />
+
+                    <TextView
+                        style="@style/table"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BT" />
+
+                    <TextView
+                        style="@style/table"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KT" />
+
+                    <TextView
+                        style="@style/table"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TH" />
+
+                    <TextView
+                        style="@style/table"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thi" />
+
+                    <TextView
+                        style="@style/table"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TB_số" />
+
+                    <TextView
+                        style="@style/table"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TB_chữ" />
+                </TableRow>
+            </TableLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/bottom_navigation" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <Switch
+                android:layout_width="match_parent"
+                android:id="@+id/switchNotify"
+                android:text="Thông báo"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+            <Switch
+                android:layout_width="match_parent"
+                android:id="@+id/switchData"
+                android:text="Tải dữ liệu khi có mạng"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:padding="10dp"
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:padding="10dp"
+                    android:id="@+id/radioAny"
+                    android:layout_width="match_parent"
+                    android:textSize="16sp"
+                    android:text="Mạng Di động hoặc Wifi"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:id="@+id/radioWifi"
+                    android:textSize="16sp"
+                    android:text="Chỉ mạng Wifi"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
